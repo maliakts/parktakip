@@ -1,0 +1,14 @@
+# Gizli bilgiler (Telegram token). Şablon: includes/gizli-ayar.ornek.php
+includes/gizli-ayar.php
+
+# Çalışma sırasında oluşan veri dosyaları (rezervasyonlar, park durumu, telegram kuyruğu)
+veri/*
+!veri/.htaccess
+!veri/.gitkeep
+
+# Editör / sistem dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.zip
